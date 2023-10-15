@@ -1,6 +1,6 @@
 <?php
-$con = mysqli_connect("localhost", "root", "");
-mysqli_query($con, 'CREATE DATABASE IF NOT EXISTS test CHARACTER SET UTF8');
+$con = mysqli_connect("localhost", "magyarkristof1", "valaminagyonszarjelszoez450");
+mysqli_query($con, 'CREATE DATABASE IF NOT EXISTS magyarkristof1 CHARACTER SET UTF8');
 include('./sites/database.php');
 query('CREATE TABLE IF NOT EXISTS users(
 	id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
